@@ -16,10 +16,18 @@ Verificato il corretto funzionamento del nostro codice, spostiamo la logica in u
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <section class="mt-4 text-center">
+        <h1>Storng Passwod Generator</h1>
+        <h2>Genera una password sicura</h2>
+        <form class="" action="./index.php" method="GET">
+            <label for="password" class="form-label">Scegli la lunghezza della password:</label>
+            <input class="" type="number" class="form-control" name="password">
+            <button type="submit" class="btn btn-primary">Invia</button>
+        </form>
+    </section>
 </body>
 </html>
