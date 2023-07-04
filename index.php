@@ -6,7 +6,15 @@ Milestone 2
 Verificato il corretto funzionamento del nostro codice, spostiamo la logica in un file functions.php che includeremo poi nella pagina principale -->
 
 
-<?php ?>
+<?php 
+
+$passwordLength = $_GET['passwordLength'];
+var_dump($passwordLength);
+
+function getRandomPassword($passwordLength){
+    
+}
+?>
 
 
 
@@ -25,7 +33,7 @@ Verificato il corretto funzionamento del nostro codice, spostiamo la logica in u
         <h2>Genera una password sicura</h2>
         <form class="" action="./index.php" method="GET">
             <label for="password" class="form-label">Scegli la lunghezza della password:</label>
-            <input class="" type="number" class="form-control" name="password">
+            <input class="" type="number" class="form-control" name="passwordLenght">
             <button type="submit" class="btn btn-primary">Invia</button>
         </form>
     </section>
